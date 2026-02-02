@@ -1,5 +1,14 @@
-import {sum } from "./capitalize.js";
+import {capitalize} from "./capitalize.js";
 
-test('sample test', () => {
-  expect(sum(1, 2)).toBe(3);
+test('test sample', () => {
+  expect(capitalize("hello world")).toBe("Hello world");
 });
+
+it('space before string', () => {
+  expect(capitalize("    skadoosh")).toBe("Skadoosh");
+});
+
+it('no edit needed', () => {
+  expect(capitalize("Germany")).toEqual("Germany");
+});
+
