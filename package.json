@@ -1,0 +1,24 @@
+{
+  "name": "testing-practice-project",
+  "version": "1.0.0",
+  "description": "a project to try out test driven development",
+  "main": "capitalize.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drldx/testing-practice-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drldx/testing-practice-project/issues"
+  },
+  "homepage": "https://github.com/drldx/testing-practice-project#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
+    "jest": "^30.2.0"
+  }
+}
